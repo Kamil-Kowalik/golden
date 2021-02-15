@@ -12,7 +12,7 @@
     background-attachment: fixed;
     }
       
-.splash-inner {
+.splash-inner{
     position: absolute;
     width: 100%;
     top: 50px;
@@ -36,7 +36,47 @@
     text-decoration: none;
     color: #ffffff; }
 
-    .row {
-        display: flex;
-        justify-content: space-between;
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: slategrey;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
     }
+
+.col {
+    text-align: center;
+}
+
+.col i {
+    font-size: 30px;
+    border: 3px solid orange;
+    width: 60px;
+    height: 60px;
+    line-height: 40px;
+    color: orange;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+
+@media (max-width: 767px) {
+    .row { 
+        flex-direction: column;
+    }
+}
+
+ @media (min-width: 768px) and (max-width: 991px) {
+    .row { 
+        flex-direction: column;
+    }
+ }
