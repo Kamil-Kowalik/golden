@@ -1,0 +1,42 @@
+@import "../vendor/normalize.scss";
+@import "../vendor/bootstrap-grid.scss";
+
+
+/*Splash*/
+.splash {
+    position: relative;
+    height: 80vh;
+    background-image: url("https://images.pexels.com/photos/583842/pexels-photo-583842.jpeg?cs=srgb&dl=pexels-jessica-lewis-583842.jpg&fm=jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+      
+.splash-inner {
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    left: 50px;
+    transform: translate(-50%, -50%);
+}
+
+/*Navigation*/
+.navigation ul {
+    margin: 0;
+    padding: 20px 10px 0 0;
+    list-style-type: none;
+    }
+  
+.navigation li {
+    display: inline-block;
+    width: 100px;
+    }
+  
+.navigation a {
+    text-decoration: none;
+    color: #ffffff; }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
