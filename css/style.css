@@ -1141,4 +1141,34 @@ img {
   margin-top: 5px;
   padding-bottom: 20px;
 }
+
+/*Footer*/
+.footer .row {
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -ms-flex-align: center;
+      align-items: center;
+  padding-bottom: 40px;
+}
+
+.foot {
+  padding-top: 20px;
+}
+
+li {
+  font-size: 0;
+  display: inline-block;
+}
+
+.col li i {
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border: 0px;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
