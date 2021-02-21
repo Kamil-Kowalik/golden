@@ -1073,13 +1073,45 @@ html {
   color: orange;
 }
 
-.col-12 h1 {
+.col-lg-4 {
   text-align: center;
+  margin-top: 30px;
+}
+
+.col-12 h1 {
+  margin-top: 80px;
   margin-bottom: 0;
+  text-align: center;
 }
 
 .col-12 p {
-  text-align: center;
   margin-top: 5px;
+  text-align: center;
+}
+
+/*Services*/
+.col i {
+  font-size: 30px;
+  color: orange;
+  border-color: orange;
+  border: 2px solid orange;
+  height: 80px;
+  width: 80px;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+@media (max-width: 767px) {
+  .col-4 {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-4 {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
 }
 /*# sourceMappingURL=style.css.map */

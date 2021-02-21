@@ -3,6 +3,7 @@
 
 
 /*Splash*/
+
 .splash {
     position: relative;
     height: 80vh;
@@ -38,11 +39,11 @@
     border-radius: 5px;
     color: #fff;
     text-align: center;
-
 }
 
 
 /*Navigation*/
+
 .navigation ul {
     margin: 0;
     padding: 20px 10px 0 0;
@@ -66,12 +67,43 @@
     color: orange;
 }
 
-.col-12 h1 {
+.col-lg-4 {
     text-align: center;
-    margin-bottom: 0;
-}
-.col-12 p {
-    text-align: center;
-    margin-top: 5px;
+    margin-top: 30px;
 }
 
+.col-12 h1 {
+    margin-top: 80px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.col-12 p {
+    margin-top: 5px;
+    text-align: center;
+}
+
+/*Services*/
+
+.col i {
+    font-size: 30px;
+    color: orange;
+    border-color: orange;
+    border: 2px solid orange;
+    height: 80px;
+    width: 80px;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+
+@media (max-width: 767px) {
+    .col-4 {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-4 {
+        flex-direction: column;
+    }
+}
