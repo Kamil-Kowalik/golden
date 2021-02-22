@@ -1016,15 +1016,8 @@ html {
 }
 
 .container-fluid {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center;
-  margin-top: 100px;
+  text-align: center;
+  margin-top: 150px;
 }
 
 .page-title {
@@ -1034,17 +1027,23 @@ html {
 
 .page-subtitle {
   font-size: 30px;
-  margin: 0;
+  margin: 25px 0 0 0;
 }
 
 .button-one {
-  display: block;
   width: 150px;
   padding: 15px 0;
   background: #38ada9;
   border-radius: 5px;
   color: #fff;
   text-align: center;
+  border: 0px;
+  margin-top: 25px;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
 }
 
 /*Navigation*/
@@ -1101,9 +1100,15 @@ html {
   border-radius: 50%;
 }
 
+p {
+  color: #b6b3b3;
+  line-height: 25px;
+}
+
 /*Portfolio*/
 .portfolio {
   background-color: whitesmoke;
+  padding-bottom: 70px;
 }
 
 .portfolio h1 {
@@ -1149,6 +1154,10 @@ img {
   -ms-flex-align: center;
       align-items: center;
   padding-bottom: 40px;
+}
+
+.footer ul {
+  padding: 0;
 }
 
 .foot {
